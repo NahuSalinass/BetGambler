@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E202D;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.header {
+    background-color: #12121C;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 150px 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 90px;
+    padding-left: 10px 50px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 15px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu .navbar ul li a:hover {
+    color:rgb(245, 186, 49);
+}
+
+#menu {
+    display: none;
+}
+
+i{
+    width: 55px;
+    color: #FDFEFF;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.box {
+    height: 570px;
+    width: 540px;
+    background: linear-gradient(90deg,
+            rgb(52, 77, 202) 0%,
+            rgb(27, 41, 122) 68%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 55px;
+    margin: 100px -1300px;
+    padding: 20px 0px;
+}
+
+.input-container{
+    padding: 13px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.input-container i {
+    padding: 19px;
+    border-radius: 50%;
+    background: linear-gradient(
+        90deg,
+        rgb(121, 75, 1),
+        rgb(177, 127, 9) );
+    color: #ffffff;
+    font-size: 20px;
+    top: 8px;
+    right: 8px;
+ }
+
+ .box h2{
+    font-size: 35px;
+    line-height: 1;
+    color: #FDFEFF;
+    margin-bottom: 25px;
+    font-weight: 670;
+}
+
+.box a{
+    display: flex;
+    margin-left: 140px;
+}
+
+.box .btn {
+    width: 160px;
+    margin-bottom: -50px;
+    margin-left: 0px;
+    background: linear-gradient(
+        90deg,
+        rgb(121, 75, 1),
+        rgb(177, 127, 9) );
+}
+
+.box .btn:hover{
+    background: linear-gradient(
+        90deg,
+        rgb(240, 169, 55),
+        rgb(243, 195, 92) );;
+}
+
+.imagen {
+    display: flex;
+    height: 700px;
+    width: 900px;
+    background: linear-gradient(90deg,
+    rgb(133, 148, 221) 0%,
+    rgb(26, 34, 82) 100%
+    );
+    padding: auto;
+    margin-left: 580px;
+    border-radius: 50px;
+}
+
+
+.imagen .imglogo{
+    display: flex;
+    height: 330px;
+    width: 330px;
+    margin-left: 300px;
+    margin-bottom: 1400px;
+}
+
+.imagen h1{
+    margin: 320px -350px;
+    font-weight: 600;
+    opacity: 1;
+}
