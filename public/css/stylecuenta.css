@@ -209,7 +209,7 @@ h2{
 
 
 
-@media(max-width: 760px) {
+@media(max-width: 720px) {
 
    p{
       padding: 0 50px;
@@ -220,7 +220,7 @@ h2{
    }
 
    .sau{
-      height: 100vh;
+      height: 70vh;
       padding: 50px 0;
    }
 
